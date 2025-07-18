@@ -106,3 +106,35 @@ section{
 .bigger{
     height: 1200px;
 }
+
+/* footer */
+
+footer{
+    background-color: #23272A;
+    padding: 50px 0;
+}
+
+.footer-top{
+    height: 700px;
+    border-bottom: 1px solid purple;
+    padding-bottom: 30px;
+    display: flex;
+}
+
+.footer-left{
+    flex-basis: 30%;
+    background-color: #F08180;
+}
+
+.footer-right{
+    flex-basis: 70%;
+    background-color: #20B3AA;
+}
+.footer-nav{
+height: 100%;
+    display:flex;
+}
+.nav-col{
+    flex-basis: 25%;
+    border-color: white;
+}
