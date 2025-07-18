@@ -53,12 +53,11 @@ header{
     background-color: #00018B;
     height: 600px;
     padding: 60px 0;
+    display: flex;
+    justify-content: center;
 }
 
 .jumbotron-content{
-    background-color:pink ;
+    background-color:#EF82ED ;
     width: 50%;
-    height: 100%;
-    margin: 0 auto;
-
 }
