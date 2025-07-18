@@ -23,6 +23,10 @@ header{
     background-color: #ADD8E7;
 }
 
+.h-100{
+    height: 100%;
+}
+
 /* Navbar */
 
 .navbar{
@@ -60,4 +64,31 @@ header{
 .jumbotron-content{
     background-color:#EF82ED ;
     width: 50%;
+}
+
+/* Section */
+
+section{
+    height: 600px;
+    padding: 60px 0;
+
+}
+
+.bg-gray{
+    background-color: #D3D3D3;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+.large{
+    flex-basis: 60%; 
+    background-color: #1E90FF;
+}
+
+.small{
+    flex-basis: 40%;
+    background-color: #FFC0CA;
+
 }
