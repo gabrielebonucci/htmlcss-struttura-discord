@@ -138,3 +138,18 @@ height: 100%;
     flex-basis: 25%;
     border-color: white;
 }
+
+.footer-bottom{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+        background-color:#7FFFD4;
+
+}
+
+.footer-bottom>*{
+    padding: 5px 10px;
+    background-color:#F08180;
+}
