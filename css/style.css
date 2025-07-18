@@ -23,6 +23,8 @@ header{
     background-color: #ADD8E7;
 }
 
+/* Navbar */
+
 .navbar{
     height: 80px;
     display: flex;
@@ -43,4 +45,20 @@ header{
 
 .navbar-login{
     text-align: right;
+}
+
+/* Jumbotron */
+
+.jumbotron{
+    background-color: #00018B;
+    height: 600px;
+    padding: 60px 0;
+}
+
+.jumbotron-content{
+    background-color:pink ;
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+
 }
