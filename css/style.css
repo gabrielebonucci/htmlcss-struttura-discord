@@ -13,6 +13,8 @@
 
 .flex{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .border{
@@ -70,12 +72,12 @@ header{
 
 section{
     height: 600px;
-    padding: 60px 0;
-
 }
 
 .bg-gray{
     background-color: #D3D3D3;
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .bg-white{
@@ -85,10 +87,22 @@ section{
 .large{
     flex-basis: 60%; 
     background-color: #1E90FF;
+    height: 400px;
 }
 
 .small{
     flex-basis: 40%;
     background-color: #FFC0CA;
+    height: 400px;
 
+}
+
+.full{
+    flex-basis: 100%;
+    background-color: #218B21;
+    height: 800px;
+}
+
+.bigger{
+    height: 1200px;
 }
