@@ -18,3 +18,29 @@
 .border{
     border: 2px dashed black;
 }
+
+header{
+    background-color: #ADD8E7;
+}
+
+.navbar{
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar > * {
+    flex-basis: 20%;
+    padding: 10px 0;
+    background-color: #DAA51E;
+}
+
+.navbar-link{
+    flex-grow: 1;
+    text-align: center;
+}
+
+.navbar-login{
+    text-align: right;
+}
