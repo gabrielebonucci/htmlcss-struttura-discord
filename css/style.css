@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body{
+font-family: Arial, Helvetica, sans-serif;
+}
+
 .container{
     max-width: 1080px;
     margin: 0 auto;
@@ -35,49 +39,69 @@ header{
     height: 80px;
     display: flex;
     justify-content: space-between;
+}
+
+.navbar-logo, .navbar-login {
+    flex-basis: 20%;
+    background-color: #DAA51E;
+    padding: 10px;
+    display: flex;
     align-items: center;
 }
 
-.navbar > * {
-    flex-basis: 20%;
-    padding: 10px 0;
-    background-color: #DAA51E;
-}
-
-.navbar-link{
+.navbar-links{
     flex-grow: 1;
     text-align: center;
+    height: 100%;
+    background-color: #DAA51E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.navbar-links ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar-links a, .navbar-logo a, .navbar-login a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
 }
 
 .navbar-login{
-    text-align: right;
+    justify-content: flex-end;
 }
 
 /* Jumbotron */
 
 .jumbotron{
     background-color: #00018B;
-    height: 600px;
+    min-height: 600px;
     padding: 60px 0;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
 .jumbotron-content{
     background-color:#EF82ED ;
     width: 50%;
+    height: 400px;
 }
 
 /* Section */
 
 section{
-    height: 600px;
+    min-height: 600px;
+    padding: 80px 0;
 }
 
 .bg-gray{
     background-color: #D3D3D3;
-    padding-top: 0;
-    padding-bottom: 0;
 }
 
 .bg-white{
@@ -87,35 +111,33 @@ section{
 .large{
     flex-basis: 60%; 
     background-color: #1E90FF;
-    height: 400px;
+    min-height: 400px;
 }
 
 .small{
     flex-basis: 40%;
     background-color: #FFC0CA;
-    height: 400px;
+    min-height: 400px;
 
 }
 
 .full{
     flex-basis: 100%;
     background-color: #218B21;
-    height: 800px;
+    min-height: 800px;
 }
 
-.bigger{
-    height: 1200px;
-}
 
 /* footer */
 
 footer{
     background-color: #23272A;
     padding: 50px 0;
+    color: white;
 }
 
 .footer-top{
-    height: 700px;
+    min-height: 500px;
     border-bottom: 1px solid purple;
     padding-bottom: 30px;
     display: flex;
@@ -132,11 +154,13 @@ footer{
 }
 .footer-nav{
 height: 100%;
-    display:flex;
+display:flex;
+justify-content: space-around;
+
 }
 .nav-col{
     flex-basis: 25%;
-    border-color: white;
+    border: 1px dashed white;
 }
 
 .footer-bottom{
@@ -145,11 +169,13 @@ height: 100%;
     justify-content: space-between;
     align-items: center;
     margin-top: 30px;
-        background-color:#7FFFD4;
+    padding: 20px 0;
+    background-color:#7FFFD4;
 
 }
 
 .footer-bottom>*{
     padding: 5px 10px;
     background-color:#F08180;
+    border: 1px dashed black;
 }
